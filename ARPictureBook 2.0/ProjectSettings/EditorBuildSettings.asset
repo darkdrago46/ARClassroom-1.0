@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: cab116f2ceb961c49aeb6489054c22a4
+  - enabled: 1
+    path: Assets/Scenes/CategoriesMenu.unity
+    guid: e5f52d587a96c08469f7bbf282e26185
+  - enabled: 1
     path: Assets/Scenes/FruitScene.unity
     guid: 6bdce89659816455b9f906fc62d19910
+  - enabled: 1
+    path: Assets/Scenes/FlowerScene.unity
+    guid: 905ff4a08df469e47bd43b6660ff5a7b
+  - enabled: 1
+    path: Assets/Scenes/AnimalScene.unity
+    guid: 32f9e3f79f5fc6d4fa64be91add1b6ec
+  - enabled: 1
+    path: Assets/Scenes/SportsScene.unity
+    guid: a6f53bde5fbba494982059491eb340f2
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
