@@ -832,7 +832,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 493168713}
         m_TargetAssemblyTypeName: ARPlacement, Assembly-CSharp
-        m_MethodName: SelectApple
+        m_MethodName: SelectCategory1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1191,9 +1191,9 @@ MonoBehaviour:
   OptionPanel: {fileID: 861821204}
   placementIndicator: {fileID: 527881234}
   arModels:
-  - {fileID: 6633809916865580231, guid: ce092209f4ea9864dbc1481a49058597, type: 3}
-  - {fileID: 1071093592401911140, guid: ddbe9d9f9ec68564eacc8a7310cc2c28, type: 3}
-  - {fileID: 3117387953876381874, guid: 513a0cc67c7c8dd43bd18dec449fc568, type: 3}
+  - {fileID: 3688831039726778134, guid: 7a79c30d64ddbd44e8ce6c5997c010da, type: 3}
+  - {fileID: 4097623840919900398, guid: a9e3b2a44a45bd94a902b92a683559fa, type: 3}
+  - {fileID: 6157516377806788120, guid: a3d908a6fef700e48b2fa3cdb2f59970, type: 3}
 --- !u!1 &526343935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,7 +1545,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 493168713}
         m_TargetAssemblyTypeName: ARPlacement, Assembly-CSharp
-        m_MethodName: SelectApple
+        m_MethodName: SelectCategory3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4308,7 +4308,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 493168713}
         m_TargetAssemblyTypeName: ARPlacement, Assembly-CSharp
-        m_MethodName: SelectApple
+        m_MethodName: SelectCategory2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

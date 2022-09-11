@@ -80,21 +80,21 @@ public class ARPlacement : MonoBehaviour
 
     }
 
-    public void SelectApple()
+    public void SelectCategory1()
     {
         modelIndex = 0;
         OptionPanel.SetActive(false);
         ARPlaceObject(modelIndex);
     }
 
-    public void SelectPumpkin()
+    public void SelectCategory2()
     {
         modelIndex = 1;
         OptionPanel.SetActive(false);
         ARPlaceObject(modelIndex);
     }
 
-    public void SelectWatermelon()
+    public void SelectCategory3()
     {
         modelIndex = 2;
         OptionPanel.SetActive(false);
