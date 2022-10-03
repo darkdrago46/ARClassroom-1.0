@@ -7559,6 +7559,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Abs_m2643D26C436CEBF7A410A12616E01
 {
 	return fabsf(___value0);
 }
+// System.Double System.Math::Acos(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Acos_mC58CC1E74394C53D62F3EA24C42B06A0CE21778D (double ___d0, const RuntimeMethod* method) 
+{
+	return acos(___d0);
+}
 // System.Double System.Math::Atan(System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Atan_m9CF4D68F89D38CD217D04BED8EDFA6FB932BAEAE (double ___d0, const RuntimeMethod* method) 
 {

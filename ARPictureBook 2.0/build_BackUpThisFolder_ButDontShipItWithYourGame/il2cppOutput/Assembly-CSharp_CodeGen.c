@@ -54,12 +54,12 @@ extern void ARPlacement_UpdatePlacementIndicator_m40D712396478D71FB6A225F5A48A67
 extern void ARPlacement_UpdatePlacementPose_mAA1741FB6F809237598B63C2DA26C352D5937C38 (void);
 // 0x00000015 System.Void ARPlacement::ARPlaceObject(System.Int32)
 extern void ARPlacement_ARPlaceObject_mCFAABAD6967692204401AC30C523B32BDB862DFB (void);
-// 0x00000016 System.Void ARPlacement::SelectApple()
-extern void ARPlacement_SelectApple_mA0EC8689EC364A84E5167BE6E30C6D694E078696 (void);
-// 0x00000017 System.Void ARPlacement::SelectPumpkin()
-extern void ARPlacement_SelectPumpkin_m672655400B71A7C1F8EFCD3D1C20B0F8FB1CA5E7 (void);
-// 0x00000018 System.Void ARPlacement::SelectWatermelon()
-extern void ARPlacement_SelectWatermelon_m8331EC184D3951E51249199AF8342081C18C5752 (void);
+// 0x00000016 System.Void ARPlacement::SelectCategory1()
+extern void ARPlacement_SelectCategory1_m0B6F501C88CBF2071F0871BFE953EE206E929981 (void);
+// 0x00000017 System.Void ARPlacement::SelectCategory2()
+extern void ARPlacement_SelectCategory2_m6E01D12881C5AEC947EE8AD52DE417456F1EE1D1 (void);
+// 0x00000018 System.Void ARPlacement::SelectCategory3()
+extern void ARPlacement_SelectCategory3_m10C9DEFC508AAC7B7F3351C291441AF932CE0864 (void);
 // 0x00000019 System.Void ARPlacement::EnableOptionPanel()
 extern void ARPlacement_EnableOptionPanel_mC6C7B7DD9CE517EEC221ACC22A8A442F35A4DEFC (void);
 // 0x0000001A System.Void ARPlacement::.ctor()
@@ -68,11 +68,19 @@ extern void ARPlacement__ctor_m13D40B9A26B154DDB1ABAC3D5E6CF03F7EE3F9ED (void);
 extern void ScreenController_MainMenu_m361527ABCFF3F7A8EEFB6DABA6B9D79EF32D2639 (void);
 // 0x0000001C System.Void ScreenController::CategoriesMenu()
 extern void ScreenController_CategoriesMenu_m8F5B9FD0E5968542760E9420A682083416D577D4 (void);
-// 0x0000001D System.Void ScreenController::QuitApp()
+// 0x0000001D System.Void ScreenController::FruitsCat()
+extern void ScreenController_FruitsCat_m7EDC5D93C2BA09CA82CB802541C0FB1B98D909AE (void);
+// 0x0000001E System.Void ScreenController::FlowerCat()
+extern void ScreenController_FlowerCat_mA9EC49C3EB9AA097276F99EF15AB99384EE88D0A (void);
+// 0x0000001F System.Void ScreenController::AnimalsCat()
+extern void ScreenController_AnimalsCat_m23C43E8CEF290901FEDDE150744279514F72696F (void);
+// 0x00000020 System.Void ScreenController::SportsCat()
+extern void ScreenController_SportsCat_m70631729599619EDB672526E9DB97A7265761865 (void);
+// 0x00000021 System.Void ScreenController::QuitApp()
 extern void ScreenController_QuitApp_m001E153012694BD2C6B48FAF8557E144AA0BEC33 (void);
-// 0x0000001E System.Void ScreenController::.ctor()
+// 0x00000022 System.Void ScreenController::.ctor()
 extern void ScreenController__ctor_m10D400883D8F20AFBE6B05B8A6104550733F2A6A (void);
-static Il2CppMethodPointer s_methodPointers[30] = 
+static Il2CppMethodPointer s_methodPointers[34] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -95,54 +103,62 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	ARPlacement_UpdatePlacementIndicator_m40D712396478D71FB6A225F5A48A6722B48EF040,
 	ARPlacement_UpdatePlacementPose_mAA1741FB6F809237598B63C2DA26C352D5937C38,
 	ARPlacement_ARPlaceObject_mCFAABAD6967692204401AC30C523B32BDB862DFB,
-	ARPlacement_SelectApple_mA0EC8689EC364A84E5167BE6E30C6D694E078696,
-	ARPlacement_SelectPumpkin_m672655400B71A7C1F8EFCD3D1C20B0F8FB1CA5E7,
-	ARPlacement_SelectWatermelon_m8331EC184D3951E51249199AF8342081C18C5752,
+	ARPlacement_SelectCategory1_m0B6F501C88CBF2071F0871BFE953EE206E929981,
+	ARPlacement_SelectCategory2_m6E01D12881C5AEC947EE8AD52DE417456F1EE1D1,
+	ARPlacement_SelectCategory3_m10C9DEFC508AAC7B7F3351C291441AF932CE0864,
 	ARPlacement_EnableOptionPanel_mC6C7B7DD9CE517EEC221ACC22A8A442F35A4DEFC,
 	ARPlacement__ctor_m13D40B9A26B154DDB1ABAC3D5E6CF03F7EE3F9ED,
 	ScreenController_MainMenu_m361527ABCFF3F7A8EEFB6DABA6B9D79EF32D2639,
 	ScreenController_CategoriesMenu_m8F5B9FD0E5968542760E9420A682083416D577D4,
+	ScreenController_FruitsCat_m7EDC5D93C2BA09CA82CB802541C0FB1B98D909AE,
+	ScreenController_FlowerCat_mA9EC49C3EB9AA097276F99EF15AB99384EE88D0A,
+	ScreenController_AnimalsCat_m23C43E8CEF290901FEDDE150744279514F72696F,
+	ScreenController_SportsCat_m70631729599619EDB672526E9DB97A7265761865,
 	ScreenController_QuitApp_m001E153012694BD2C6B48FAF8557E144AA0BEC33,
 	ScreenController__ctor_m10D400883D8F20AFBE6B05B8A6104550733F2A6A,
 };
-static const int32_t s_InvokerIndices[30] = 
+static const int32_t s_InvokerIndices[34] = 
 {
-	5310,
-	4307,
-	5416,
-	5416,
-	5416,
-	5416,
-	8498,
-	5352,
-	4341,
-	5416,
-	5416,
-	5416,
-	4193,
-	4307,
-	5416,
-	8498,
-	5416,
-	5416,
-	5416,
-	5416,
-	4281,
-	5416,
-	5416,
-	5416,
-	5416,
-	5416,
-	5416,
-	5416,
-	5416,
-	5416,
+	5397,
+	4381,
+	5503,
+	5503,
+	5503,
+	5503,
+	8640,
+	5439,
+	4415,
+	5503,
+	5503,
+	5503,
+	4267,
+	4381,
+	5503,
+	8640,
+	5503,
+	5503,
+	5503,
+	5503,
+	4355,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
+	5503,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	30,
+	34,
 	s_methodPointers,
 	0,
 	NULL,

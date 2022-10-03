@@ -145,8 +145,12 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719;
 IL2CPP_EXTERN_C String_t* _stringLiteral131018280018B48DB9FF86A96C7535E6FA339C24;
+IL2CPP_EXTERN_C String_t* _stringLiteral3CD9D355D0D9D3359043C267F8B8E2F7B12E25AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral849043193B4849A97BE2F08CFC3CAC883A0F096C;
+IL2CPP_EXTERN_C String_t* _stringLiteralBB7CF52EE9C88847DAC88CE033DA626B084E1AD3;
+IL2CPP_EXTERN_C String_t* _stringLiteralCE45A5A92B794B502F8EA8BEC7C5834A10A8E7CA;
 IL2CPP_EXTERN_C String_t* _stringLiteralE37EE53DA49C672C6A121DD86793F800129D6449;
+IL2CPP_EXTERN_C String_t* _stringLiteralE4789E2D583ACD68D4A095F17606612C1C9F6233;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0A452CB475C59645D20B9EAB37F54382FBA8D1C;
 IL2CPP_EXTERN_C const RuntimeMethod* ARFeatheredPlaneMeshVisualizer_ARPlane_boundaryUpdated_mB3D9BBD14EA1FE3ECDBACC2DB89C1B110B8B6B5F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisARAnchorManager_tF68C46300BD6F2E83E3360BF9297C3C50F5D6B3E_mABCA912A8D3AFCEEA2F2FE0EF30C541DA7DD7907_RuntimeMethod_var;
@@ -2503,8 +2507,8 @@ IL_0044:
 		return;
 	}
 }
-// System.Void ARPlacement::SelectApple()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectApple_mA0EC8689EC364A84E5167BE6E30C6D694E078696 (ARPlacement_tA1308C1A97DE34EB044FD63BB22F99D72F2A60E7* __this, const RuntimeMethod* method) 
+// System.Void ARPlacement::SelectCategory1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectCategory1_m0B6F501C88CBF2071F0871BFE953EE206E929981 (ARPlacement_tA1308C1A97DE34EB044FD63BB22F99D72F2A60E7* __this, const RuntimeMethod* method) 
 {
 	{
 		// modelIndex = 0;
@@ -2520,8 +2524,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectApple_mA0EC8689EC364A8
 		return;
 	}
 }
-// System.Void ARPlacement::SelectPumpkin()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectPumpkin_m672655400B71A7C1F8EFCD3D1C20B0F8FB1CA5E7 (ARPlacement_tA1308C1A97DE34EB044FD63BB22F99D72F2A60E7* __this, const RuntimeMethod* method) 
+// System.Void ARPlacement::SelectCategory2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectCategory2_m6E01D12881C5AEC947EE8AD52DE417456F1EE1D1 (ARPlacement_tA1308C1A97DE34EB044FD63BB22F99D72F2A60E7* __this, const RuntimeMethod* method) 
 {
 	{
 		// modelIndex = 1;
@@ -2537,8 +2541,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectPumpkin_m672655400B71A
 		return;
 	}
 }
-// System.Void ARPlacement::SelectWatermelon()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectWatermelon_m8331EC184D3951E51249199AF8342081C18C5752 (ARPlacement_tA1308C1A97DE34EB044FD63BB22F99D72F2A60E7* __this, const RuntimeMethod* method) 
+// System.Void ARPlacement::SelectCategory3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacement_SelectCategory3_m10C9DEFC508AAC7B7F3351C291441AF932CE0864 (ARPlacement_tA1308C1A97DE34EB044FD63BB22F99D72F2A60E7* __this, const RuntimeMethod* method) 
 {
 	{
 		// modelIndex = 2;
@@ -2614,6 +2618,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenController_CategoriesMenu_m8F5B9FD
 		// SceneManager.LoadScene("CategoriesMenu");
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteralF0A452CB475C59645D20B9EAB37F54382FBA8D1C, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ScreenController::FruitsCat()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenController_FruitsCat_m7EDC5D93C2BA09CA82CB802541C0FB1B98D909AE (ScreenController_t30E3A2B2482EC689D536331BF686D0B3EC01576F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CD9D355D0D9D3359043C267F8B8E2F7B12E25AC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene("FruitScene");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteral3CD9D355D0D9D3359043C267F8B8E2F7B12E25AC, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ScreenController::FlowerCat()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenController_FlowerCat_mA9EC49C3EB9AA097276F99EF15AB99384EE88D0A (ScreenController_t30E3A2B2482EC689D536331BF686D0B3EC01576F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBB7CF52EE9C88847DAC88CE033DA626B084E1AD3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene("FlowerScene");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteralBB7CF52EE9C88847DAC88CE033DA626B084E1AD3, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ScreenController::AnimalsCat()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenController_AnimalsCat_m23C43E8CEF290901FEDDE150744279514F72696F (ScreenController_t30E3A2B2482EC689D536331BF686D0B3EC01576F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCE45A5A92B794B502F8EA8BEC7C5834A10A8E7CA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene("AnimalScene");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteralCE45A5A92B794B502F8EA8BEC7C5834A10A8E7CA, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ScreenController::SportsCat()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenController_SportsCat_m70631729599619EDB672526E9DB97A7265761865 (ScreenController_t30E3A2B2482EC689D536331BF686D0B3EC01576F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE4789E2D583ACD68D4A095F17606612C1C9F6233);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene("SportsScene");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteralE4789E2D583ACD68D4A095F17606612C1C9F6233, NULL);
 		// }
 		return;
 	}
