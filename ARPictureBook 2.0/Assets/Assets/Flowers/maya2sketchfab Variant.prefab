@@ -15,37 +15,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 20.88685
+      value: 0.7637486
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 20.88685
+      value: 0.7637486
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 20.88685
+      value: 0.7637486
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.052658133
+      value: 0.7391631
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
@@ -55,7 +55,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.99861264
+      value: 0.6735265
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 173.963
+      value: 84.68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 71f387fdd49a0294ab55397a20d2391f,
         type: 3}
@@ -82,6 +82,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: maya2sketchfab Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71f387fdd49a0294ab55397a20d2391f,
+        type: 3}
+      propertyPath: m_TagString
+      value: ARMultiModel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f387fdd49a0294ab55397a20d2391f, type: 3}
 --- !u!1 &4846925877064472335 stripped
@@ -90,29 +95,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5729375555579456094}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5173892706937863848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4846925877064472335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Use:
-    Filter: 0
-    IgnoreStartedOverGui: 1
-    RequiredFingerCount: 0
-    RequiredMouseButtons: 0
-    RequiredSelectable: {fileID: 0}
-  _camera: {fileID: 0}
-  sensitivity: 1
-  damping: -1
-  inertia: 0
-  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!114 &4322625589287228638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +118,29 @@ MonoBehaviour:
   sensitivity: 1
   damping: -1
   remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &5173892706937863848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846925877064472335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  sensitivity: 1
+  damping: -1
+  inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!114 &6539669316071032263
 MonoBehaviour:
   m_ObjectHideFlags: 0

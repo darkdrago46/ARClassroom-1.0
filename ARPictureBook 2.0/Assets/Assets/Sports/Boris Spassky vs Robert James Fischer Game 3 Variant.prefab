@@ -15,72 +15,77 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3416418
+      value: 0.01257073
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3416418
+      value: 0.01257073
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3416418
+      value: 0.01257073
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5
+      value: 0.0005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9
+      value: 0.0171
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6351238
+      value: 0.016623784
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0097908005
+      value: -0.0151701635
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.77225417
+      value: -0.99974114
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.012062108
+      value: -0.0033496933
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.78
+      value: -0.413
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -101.13
+      value: -178.101
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.011
+      value: 1.732
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 328b7065522fb914ba9cee647eac7919,
         type: 3}
       propertyPath: m_Name
       value: Boris Spassky vs Robert James Fischer Game 3 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 328b7065522fb914ba9cee647eac7919,
+        type: 3}
+      propertyPath: m_TagString
+      value: ARMultiModel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328b7065522fb914ba9cee647eac7919, type: 3}
@@ -90,50 +95,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6463383808923134793}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &9119098045041272526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6157516377806788120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc7c91b26689a054d88448aba6dfe424, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Use:
-    Filter: 0
-    IgnoreStartedOverGui: 1
-    RequiredFingerCount: 0
-    RequiredMouseButtons: 0
-    RequiredSelectable: {fileID: 0}
-  axis: {x: 0, y: 0, z: 1}
-  space: 1
-  sensitivity: 1
---- !u!114 &6694472676804563583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6157516377806788120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Use:
-    Filter: 0
-    IgnoreStartedOverGui: 1
-    RequiredFingerCount: 0
-    RequiredMouseButtons: 0
-    RequiredSelectable: {fileID: 0}
-  _camera: {fileID: 0}
-  relative: 0
-  sensitivity: 1
-  damping: -1
-  remainingScale: {x: 0, y: 0, z: 0}
 --- !u!114 &3958226953828509152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,3 +118,47 @@ MonoBehaviour:
   damping: -1
   inertia: 0
   remainingTranslation: {x: 0, y: 0, z: 0}
+--- !u!114 &6694472676804563583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6157516377806788120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  relative: 0
+  sensitivity: 1
+  damping: -1
+  remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &9119098045041272526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6157516377806788120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7c91b26689a054d88448aba6dfe424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  axis: {x: 0, y: 0, z: 1}
+  space: 1
+  sensitivity: 1
