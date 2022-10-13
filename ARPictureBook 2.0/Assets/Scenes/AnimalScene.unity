@@ -650,8 +650,8 @@ MonoBehaviour:
   OptionPanel: {fileID: 861821204}
   placementIndicator: {fileID: 527881234}
   arModels:
-  - {fileID: 1284484626067955198, guid: 600e271932b0fa74982f01e3c83645cb, type: 3}
-  - {fileID: 6420666261478016950, guid: 0605fc9907ba841428121897996f6fa8, type: 3}
+  - {fileID: 6770289891847889202, guid: a6948e36fa2b4a641a71cb9e31c070e9, type: 3}
+  - {fileID: 8909329324108509518, guid: 11888de698f76f341a8ef3b12f0d3254, type: 3}
   - {fileID: 5595199793527111527, guid: 34062261d16e56b44b50649d32adb101, type: 3}
 --- !u!1 &527881234
 GameObject:
